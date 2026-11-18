@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mycosmetics",
+  "version": "${version}",
+  "name": "My Cosmetics",
+  "description": "Личная косметика: плащи, шапки, маски, крылья, хвосты и питомцы. Меню на клавише K.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.mycosmetics.MyCosmeticsClient"]
+  },
+  "mixins": ["mycosmetics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
